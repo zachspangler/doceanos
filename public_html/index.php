@@ -39,7 +39,7 @@
 
 
 		<!--Google Fonts -->
-
+		 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 
 		<!-- Doce Años Favicon -->
 		<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/tnl4e63cixdw13r/skapa_favicon.png?dl=0" type="image/x-icon">
@@ -49,20 +49,20 @@
 	<body>
 		<!-- Navbar -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">Doce Años Open Space</a>
+			<a class="navbar-brand title" href="#">Doce Años Open Space</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Options</a>
+						<a class="nav-link title" href="#">Options</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Video</a>
+						<a class="nav-link title" href="#">Video</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Gallery</a>
+						<a class="nav-link title" href="#">Gallery</a>
 					</li>
 				</ul>
 			</div>
@@ -96,54 +96,58 @@
 		</div>
 		<!-- About Us -->
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<h3>Doce Años Open Space</h3>
-					<p>Doce Años Open Space was started to showcase New Mexico's natural beauty</p>
+			<div class="row m-2 py-4">
+				<div class="col-md-12 text-center">
+					<h3 class="title">Doce Años Open Space</h3>
+					<p>Imagine a place of deafening silence and endless starry skies. A place that is at once tender, grounding, restful and inspiring. A beautifully thoughtful place designed to be your own personal sanctuary.</p>
+					<p>In today’s soul-numbing world of pseudo-intimacy...images, information and advertising assail our senses without pause. This chaotic sensory assault can fragment our focus and overwhelm our ability to differentiate what is trivial from what is essential. Many are finding retreat to be the difference between truly living and just passing time.</p>
 					<p>Located 10 minutes from Bernallio we can host any event</p>
 				</div>
 			</div>
 		</div>
 		<!-- Video -->
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<iframe width="420" height="315"
+		<div class="container-fluid background-gray">
+			<div class="row m-4 py-4">
+				<div class="col-md-4"></div>
+				<div class="col-md-4 my-auto container-fluid">
+					<h3 class="title text-center">Video</h3>
+					<iframe class="my-auto" width="420" height="315"
 							  src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
 					</iframe>
 				</div>
+				<div class="col-md-4"></div>
 			</div>
 		</div>
 		<!-- Rental Types -->
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-5">
-					<img src="https://moncheribridals.com/wp-content/themes/moncheri2017/images/118/mobile/wedding.jpg">
-				</div>
-				<div class="col-md-7">
-					<h4>Events</h4>
-					<p>This is an event description</p>
+		<div class="row m-2 py-4">
+			<div class="col-md-5 my-auto container-fluid">
+				<img class="my-auto img-resize" src="https://moncheribridals.com/wp-content/themes/moncheri2017/images/118/mobile/wedding.jpg">
+			</div>
+			<div class="col-md-7 text-center my-auto container-fluid">
+				<h4 class="title">Events</h4>
+				<p>Many would be eloping couples are looking for something different: They prefer quality over quantity. They want a wedding and honeymoon experience that is both simple and indulgent. They see no cathedral more exquisite than nature itself, and find greater meaning in the cholla cactus or curious coyote being witness to their commitments than a room full of acquaintances. Desert Harbor takes great pride in meeting these desires. Since 2013, we have been creating bespoke elopement experiences for couples who value authenticity, privacy and beauty. </p>
+				<a href="#">Check out the gallery</a>
+			</div>
+		</div>
+			<div class="row p-4 container-fluid background-gray">
+				<div class="col-md-7 text-center my-auto container-fluid">
+					<h4 class="title">Elopements</h4>
+					<p>Many would be eloping couples are looking for something different: They prefer quality over quantity. They want a wedding and honeymoon experience that is both simple and indulgent. They see no cathedral more exquisite than nature itself, and find greater meaning in the cholla cactus or curious coyote being witness to their commitments than a room full of acquaintances. Desert Harbor takes great pride in meeting these desires. Since 2013, we have been creating bespoke elopement experiences for couples who value authenticity, privacy and beauty. </p>
 					<a href="#">Check out the gallery</a>
+				</div>
+				<div class="col-md-5 my-auto container-fluid">
+					<img class="my-auto img-resize" src="https://moncheribridals.com/wp-content/themes/moncheri2017/images/118/mobile/wedding.jpg">
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-7">
-					<h4>Elopements</h4>
-					<p>This is an elopement description</p>
+			<div class="row m-2 py-4">
+				<div class="col-md-5 my-auto container-fluid">
+					<img class="my-auto img-resize" src="https://moncheribridals.com/wp-content/themes/moncheri2017/images/118/mobile/wedding.jpg">
+				</div>
+				<div class="col-md-7 text-center my-auto container-fluid">
+					<h4 class="title">Elopements</h4>
+					<p>Many would be eloping couples are looking for something different: They prefer quality over quantity. They want a wedding and honeymoon experience that is both simple and indulgent. They see no cathedral more exquisite than nature itself, and find greater meaning in the cholla cactus or curious coyote being witness to their commitments than a room full of acquaintances. Desert Harbor takes great pride in meeting these desires. Since 2013, we have been creating bespoke elopement experiences for couples who value authenticity, privacy and beauty. </p>
 					<a href="#">Check out the gallery</a>
-				</div>
-				<div class="col-md-5">
-					<img src="https://moncheribridals.com/wp-content/themes/moncheri2017/images/118/mobile/wedding.jpg">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-5">
-					<h4>Other</h4>
-					<p>This is the other description</p>
-					<a href="#">Check out the gallery</a>
-				</div>
-				<div class="col-md-7">
-					One of three columns
 				</div>
 			</div>
 		</div>

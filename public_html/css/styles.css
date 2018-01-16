@@ -1,0 +1,147 @@
+/************************************
+*GLOBAL
+ ************************************/
+.img-resize {
+	width: 400px;
+	object-fit: contain;
+}
+
+.title {
+	font-family: 'Dancing Script', cursive;;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.background-gray {
+	background-color: #D3D3D3;
+}
+
+
+
+
+
+/************************************
+*CONTACT US
+ ************************************/
+#contact-us {
+	background-color: #D3D3D3;
+	text-align: center;
+	padding-bottom: 2rem;
+	color: #A5A38E;
+}
+
+#contact-us-text {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.contact-us-subtext {
+	text-align: center;
+	font-size: 1.25em;
+	color: #666674;
+}
+
+#contact-us a {
+	color: white;
+	text-decoration: underline;
+}
+
+#headingOne {
+	background-color: #D3D3D3;
+	border: none;
+}
+
+/************************************
+*CONTACT FORM
+ ************************************/
+form {
+	display: inline-block;
+	margin: auto;
+}
+
+.card-header {
+	border: none;
+	border-collapse: collapse;
+}
+
+.card {
+	background-color: #D3D3D3;
+	text-align: center;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	color: #A5A38E;
+}
+
+i {
+	background: transparent;
+	color: #A5A38E;
+}
+
+.input-group-addon, #name, #email, #phone, #message {
+	background: transparent;
+	border: none;
+	border-bottom: solid #A5A38E 2px;
+	color: black;
+	font-size: 1em;
+}
+
+#name, #email, #phone, #message {
+	width: 100%;
+}
+
+::placeholder {
+	text-align: left;
+}
+
+.fa-paper-plane {
+	color: #13131C;
+}
+
+.form-group {
+	background: transparent;
+	color: #A5A38E;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.submit-button {
+	background-color: #A5A38E;
+	color: #13131C;
+	border: none;
+	border-radius: 5%;
+	font-family: 'Montserrat', sans-serif;
+	margin: 1em;
+	padding: 1em;
+}
+
+.reset-button {
+	background-color: #666674;
+	color: #13131C;
+	border: none;
+	border-radius: 5%;
+	font-family: 'Montserrat', sans-serif;
+	margin: 1em;
+	padding: 1em;
+}
+
+input, select, textarea {
+	color: whitesmoke;
+}
+
+input, select {
+	color: whitesmoke;
+}
+
+.output-row {
+	height: auto;
+}
