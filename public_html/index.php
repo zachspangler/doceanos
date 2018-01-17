@@ -39,7 +39,8 @@
 
 
 		<!--Google Fonts -->
-		 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+<!--		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">-->
+		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 
 		<!-- Doce Años Favicon -->
 		<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/tnl4e63cixdw13r/skapa_favicon.png?dl=0" type="image/x-icon">
